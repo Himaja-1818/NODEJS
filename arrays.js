@@ -1,0 +1,10 @@
+let a=[2,3,4];
+console.log(a);
+let len=a.length;
+console.log(len);
+console.log(a.length);
+a.push(5);
+console.log(a);
+a.pop(5);
+console.log(a);
+console.log(a[1]);
