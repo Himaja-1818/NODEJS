@@ -5,3 +5,5 @@ console.log(c);
 let s='2';
 c=a+s;
 console.log(c);
+c=s+a;
+console.log(c);

@@ -1,0 +1,10 @@
+const chalk = require('chalk');
+console.time('sub');
+let a = 10;
+let b =20;
+sub =a-b;
+console.log(sub);
+console.log(chalk.blue(sub));
+// console.warn(chalk.yellow(sub));
+// console.error(chalk.red(sub));
+console.timeEnd('sub');
